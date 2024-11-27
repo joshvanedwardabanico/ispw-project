@@ -1,0 +1,57 @@
+.login_container {
+    -fx-background-color:#89C9B8;
+}
+
+/*logo container*/
+.login_logo_container {
+    -fx-background-color:#89C9B8;
+    -fx-alignment: center;
+}
+.login_logo_container Label {
+    -fx-font-size: 36;
+    -fx-font-family:"Helvetica LT Std";
+    -fx-font-weight: Bold;
+}
+
+/* login form styles */
+.login_form_container {
+    -fx-spacing: 15;
+    -fx-alignment: top_left;
+}
+
+.login_form_container Label {
+    -fx-font-size: 10;
+    -fx-font-family:"Helvetica LT Std";
+}
+.login_main_text {
+    -fx-font-size: 18;
+    -fx-font-family:"Helvetica LT Std";
+    -fx-font-weight: Bold;
+}
+.input_field {
+    -fx-background-color: #FFFFFF;
+    -fx-pref-height: 30;
+    -fx-pref-width: 240;
+    -fx-font-size: 10;
+    -fx-font-family: "Helvetica LT Std";
+    -fx-font-weight: "Extra Thin";
+}
+
+.login_form_container Button {
+    -fx-background-color:  #092532;
+    -fx-pref-height: 30;
+    -fx-pref-width: 300;
+    -fx-font-family: "Helvetica LT Std";
+    -fx-font-size: 12;
+    -fx-font-weight: Bold;
+    -fx-text-fill: #FFFFFF;
+
+}
+
+.login_form_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.error_lbl {
+    -fx-text-fill: #FF0000;
+}
