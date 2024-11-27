@@ -1,0 +1,40 @@
+.main_menu_container{
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+
+
+}
+
+.left_container {
+    -fx-background-color: #89C9B8;
+    -fx-effect: dropshadow(two-pass-box, #092532, 5, 0, 0, 4);
+
+}
+
+.title_container {
+    -fx-background-color: #89C9B8;
+    -fx-alignment: center;
+    -fx-padding: 10;
+
+}
+.title_container Label {
+    -fx-alignment: center;
+    -fx-font-size: 32;
+    -fx-font-family:"Helvetica LT Std";
+    -fx-font-weight: Bold;
+    -fx-fill: #092532;
+}
+
+.menu_container {
+    -fx-alignment: center;
+    -fx-background-color: #89C9B8;
+}
+
+.menu_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.menu_container Button {
+    -fx-fill: #FFFFFF;
+}
+
