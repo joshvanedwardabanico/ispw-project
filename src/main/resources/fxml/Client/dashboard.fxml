@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ispwproject.Controllers.Client.dashboardController">
+<AnchorPane prefHeight="468.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ispwproject.Controllers.Client.dashboardController">
     <Label layoutX="232.0" layoutY="135.0" text="Hello World!">
       <font>
          <Font size="89.0" />
