@@ -8,13 +8,21 @@
 .left_container {
     -fx-background-color: #89C9B8;
     -fx-effect: dropshadow(two-pass-box, #092532, 5, 0, 0, 4);
-
+    -fx-background-radius: 0,0,20,20;
 }
 
 .title_container {
     -fx-background-color: #89C9B8;
     -fx-alignment: center;
     -fx-padding: 10;
+
+
+}.title_container TextField {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: left;
+    -fx-padding: 10;
+    -fx-pref-width: 420;
+
 
 }
 .title_container Label {
@@ -27,14 +35,21 @@
 
 .menu_container {
     -fx-alignment: center;
+    -fx-spacing: 40;
     -fx-background-color: #89C9B8;
 }
 
 .menu_container Button:hover {
     -fx-cursor: hand;
+    -fx-background-color: #74B1A1;
 }
 
 .menu_container Button {
-    -fx-fill: #FFFFFF;
+    -fx-background-color:#89C9B8;
+    -fx-font-family: "Helvetica LT Std";
+    -fx-font-size: 18;
+    -fx-background-radius: 35;
 }
+
+
 

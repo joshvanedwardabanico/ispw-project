@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="468.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ispwproject.Controllers.Client.dashboardController">
-    <Label layoutX="232.0" layoutY="135.0" text="Hello World!">
-      <font>
-         <Font size="89.0" />
-      </font></Label>
+<AnchorPane prefHeight="550.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ispwproject.Controllers.Client.dashboardController">
+   <Label/>
 </AnchorPane>
