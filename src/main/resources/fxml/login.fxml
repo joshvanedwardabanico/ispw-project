@@ -1,61 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0"
-            prefWidth="960.0" styleClass="login_container" stylesheets="@../styles/login.css"
-            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
-    <HBox layoutX="330.0" prefHeight="100.0" prefWidth="300.0" styleClass="login_logo_container"
-          stylesheets="@../styles/login.css">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" styleClass="login_container" stylesheets="@../styles/login.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ispwproject.Controllers.LoginController">
+    <HBox layoutX="330.0" prefHeight="100.0" prefWidth="300.0" styleClass="login_logo_container" stylesheets="@../styles/login.css">
         <Label text="xchange">
             <font>
-                <Font name="HelveticaLTStd-Roman" size="10.0"/>
+                <Font name="HelveticaLTStd-Roman" size="10.0" />
             </font>
         </Label>
     </HBox>
     <VBox layoutX="328.0" layoutY="99.0" prefHeight="400.0" prefWidth="300.0" styleClass="login_form_container">
         <Label styleClass="login_main_text" text="halo!">
             <font>
-                <Font name="HelveticaLTStd-Bold" size="18.0"/>
+                <Font name="HelveticaLTStd-Bold" size="18.0" />
             </font>
         </Label>
         <Label text="enter your details to sign in to your account">
             <font>
-                <Font name="HelveticaLTStd-Roman" size="10.0"/>
+                <Font name="HelveticaLTStd-Roman" size="10.0" />
             </font>
         </Label>
-        <TextField id="usernameTextField" prefHeight="30.0" prefWidth="240.0"
-                   promptText="enter your username / email" styleClass="input_field">
+        <TextField id="usernameTextField" prefHeight="30.0" prefWidth="240.0" promptText="enter your username / email" styleClass="input_field">
             <font>
-                <Font name="HelveticaLTStd-Roman" size="10.0"/>
+                <Font name="HelveticaLTStd-Roman" size="10.0" />
             </font>
         </TextField>
-        <TextField id="passwordTextField" prefHeight="30.0" prefWidth="240.0" promptText="enter your password"
-                   styleClass="input_field">
+        <TextField id="passwordTextField" prefHeight="30.0" prefWidth="240.0" promptText="enter your password" styleClass="input_field">
             <font>
-                <Font name="HelveticaLTStd-Roman" size="10.0"/>
+                <Font name="HelveticaLTStd-Roman" size="10.0" />
             </font>
         </TextField>
         <Label text="forgot your password?">
             <font>
-                <Font name="HelveticaLTStd-Roman" size="10.0"/>
+                <Font name="HelveticaLTStd-Roman" size="10.0" />
             </font>
         </Label>
-        <Button id="loginButton" mnemonicParsing="false" prefHeight="30.0" prefWidth="300.0" text="login"
-                textFill="WHITE">
+        <Button fx:id="login_btn" prefHeight="30.0" prefWidth="300.0" text="login" textFill="WHITE">
             <font>
-                <Font name="HelveticaLTStd-Bold" size="12.0"/>
+                <Font name="HelveticaLTStd-Bold" size="12.0" />
             </font>
         </Button>
         <Label id="error_lbl" layoutX="10.0" layoutY="10.0" styleClass="error_lbl" text="error!" textFill="WHITE">
             <font>
-                <Font name="HelveticaLTStd-Bold" size="18.0"/>
+                <Font name="HelveticaLTStd-Bold" size="18.0" />
             </font>
         </Label>
     </VBox>
