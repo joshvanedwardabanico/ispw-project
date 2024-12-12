@@ -16,8 +16,8 @@
     -fx-alignment: center;
     -fx-padding: 10;
 
-
-}.title_container TextField {
+}
+.title_container TextField {
     -fx-background-color: #FFFFFF;
     -fx-alignment: left;
     -fx-padding: 10;
